@@ -4,6 +4,17 @@
   padding: 0;
 }
 
+.nanu {
+  height: 400px;
+  width: 400px;
+  font-size: 2em;
+  position: absolute;
+  margin-bottom: 400px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #F1C40F;
+  color: #763C8C;
+}
+
 html, body {
   min-height: 100vh;
   display: -webkit-box;
