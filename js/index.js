@@ -346,19 +346,5 @@ var toggleSound = function toggleSound() {
     on = !on;
   };
 };
-
-// Call the returned function from toggleSound
-var toggle = toggleSound();
-el.sound.addEventListener('click', toggle);
-el.sound.addEventListener('touchstart', toggle);
-
-// Add touchstart event listeners to the body
-document.body.addEventListener('touchstart', function() {
-  // Only play the audios if they're not already playing
-  ['blup', 'blop'].forEach(function(id) {
-    var audio = el[id];
-    if (audio && audio.paused) {
-      audio.play();
-    }
-  });
-});
+el.sound.addEventListener('click', toggleSound);
+el.sound.addEventListener('touchstart', toggleSound);
