@@ -347,10 +347,4 @@ var toggleSound = function toggleSound() {
   };
 };
 el.sound.addEventListener('click', toggleSound());
-
-document.body.addEventListener('touchstart', function() {
-  var audios = document.querySelectorAll('.blup, .blop');
-  audios.forEach(function(audio) {
-      audio.play();
-  });
-});
+el.sound.addEventListener('touchstart', toggleSound);
