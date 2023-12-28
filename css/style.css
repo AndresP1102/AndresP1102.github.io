@@ -5,11 +5,11 @@
 }
 
 .nanu {
-  height: 400px;
-  width: 400px;
+  height: 30em;
+  width: 40em;
   font-size: 2em;
   position: absolute;
-  margin-bottom: 400px;
+  margin-bottom: 20em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #F1C40F;
   color: #763C8C;

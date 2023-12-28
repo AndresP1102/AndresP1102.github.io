@@ -346,5 +346,4 @@ var toggleSound = function toggleSound() {
     on = !on;
   };
 };
-el.sound.addEventListener('click', toggleSound);
-el.sound.addEventListener('touchstart', toggleSound);
+el.sound.addEventListener('click', toggleSound());
